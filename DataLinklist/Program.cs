@@ -12,7 +12,10 @@ namespace DatastructureLinkList
             //list.Add(30);
             list.Add(70);
             list.InsertAtParticularPosition(2, 30);
-            list.RemoveFirstNode();
+            //list.RemoveFirstNode();
+            list.Display();
+            Console.WriteLine("*********************last element delate");
+            list.RemoveLastNode();
             list.Display();
 
 
